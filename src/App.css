@@ -1,0 +1,74 @@
+/* Modal */
+.modal-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 800px;
+    height: 80vh;
+    background-color: white;
+    border: 1px solid black;
+    overflow: scroll;
+    padding: 250px 50px 50px 50px;
+}
+.modal-container img{
+    width: 70%;
+    margin: 0 auto;
+    object-fit: contain;
+}
+.modal-container button{
+    width: 200px;
+    padding: 10px 20px;
+    background-color: red;
+    cursor: pointer;
+    display: block;
+}
+.modal-container p{
+    text-align: start;
+}
+/* Favorite */
+.favorite-food-container{
+    background-color: black;
+    padding: 15px;
+    color: white;
+}
+.favorite-food-list{
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+.food-thumbnail{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.food-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.food-item button{
+    margin-top: 20px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
